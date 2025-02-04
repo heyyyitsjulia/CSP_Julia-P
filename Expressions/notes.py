@@ -12,3 +12,7 @@ num = 4
 print(num)
 num /= 2
 print(num)
+
+pi = 3.1415926535
+
+print(f"{pi:.4f}")
