@@ -5,7 +5,7 @@
 //float equation = 5*7+11/(5-x);
 int num = 12;
 float pi = 3.14159274;
-float expression = 5*pow(7,2)/4;
+float expression = 5*7/4;
 // + - * / 
 int main(void){
  //  num = 4;
