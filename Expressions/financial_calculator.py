@@ -27,13 +27,14 @@ percent_transportation = transportation/income *100
 # calculate percent income of spending (spending/income *100) (variable)
 percent_spending = spendings/income *100
 # Your rent is $XX.XX which is XX% of your income. (Print)
-print (rent "Which is" percent_rent)
+print(f"your rent is {rent} which is {percent_rent: .2f} percent of your income")
 # Your utlities is $XX.XX which is XX% of your income. (Print)
-print (utilities ("Which is") percent_utilities)
+print(f"The utilities cost is {utilities} which is {percent_utilities: .2f} percent of your income")
 # Your groceries is $XX.XX which is XX% of your income. (Print)
-print
+print(f"The cost of your groceries is {groceries} which is {percent_groceries: .2f} percent of your income")
 # Your transportation is $XX.XX which is XX% of your income. (Print)
-
+print(f"The cost of your transportation is {transportation} which is {percent_transportation: .2f} percent of your income")
 # Your savings is $XX.XX which is XX% of your income. (Print)
-
+print(f"Your savings is {savings} which is {percent_spending: .2f} percent of your income")
 # Your spending is $XX.XX which is XX% of your income. (Print)
+print(f"Your spendings is {spendings} which is {percent_spending: .2f} percent of your income")
