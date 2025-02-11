@@ -1,4 +1,4 @@
-// Julia Properzi, TEMPLATE
+// Julia Properzi, expressions practice
 #include <stdio.h>
 
 float equation = 5*7+11/(5-3);
