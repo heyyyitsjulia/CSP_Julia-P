@@ -1,21 +1,12 @@
 # Julia Properzi, Python Variables Practice
 
-name = "Julia"
-
-small_number = 6
-
-big_number = 395
-
-breakfast = "Yogurt"
-
-color = "Purple"
-
-school_name = "UCAS"
-
-year = 2025
-
-eye_color = "Blueish"
-
-age = 15
-
-fave_subject = "Biology"
+name = input("Julia")
+small_number = input(6)
+big_number = input(395)
+breakfast = input("Yogurt")
+color = input("Purple")
+school_name = input("UCAS")
+year = input(2025)
+eye_color = input("Blueish")
+age = input(15)
+fave_subject = input("Biology")
