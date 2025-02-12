@@ -1,6 +1,6 @@
 char name[] = "Julia";
-printf()
-int number = 5;
+printf(name)
+int number= 5;
 
 int big_number = 263;
 

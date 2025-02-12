@@ -15,7 +15,11 @@ int main(void){
     printf("%f\n", hard_equation);
     float harder_equation = -1*((3-4*7)/5)-2*24/6;
     printf("%f\n", harder_equation);
-    float hardest_equation = (3*5**2/15)-(5-2**2);
+    float hardest_equation = (3*(pow)(5,2)/15)-(5-(pow)(2,2));
     printf("%f\n", hardest_equation);
+    float another_equation = ((pow)(1,4)*(pow)(2,2)+(pow)(3,3))-pow(2,5)/4;
+    printf("%f\n", another_equation);
+    float last_one = pow((22/2-2.5),2) + pow((4-6/6),2);
+    printf("%f\n", last_one);
     return 0;
 }
