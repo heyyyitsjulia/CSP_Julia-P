@@ -1,7 +1,7 @@
 char name[] = "Julia";
 printf(name)
 int number= 5;
-
+printf(number)
 int big_number = 263;
 
 char breakfast[] = "muffin";
