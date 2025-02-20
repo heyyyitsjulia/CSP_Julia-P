@@ -3,9 +3,10 @@
 #include<string.h>
 
 int main(void){
-    printf("What is your name?\n");
-    char capSix[40] = "<<<<";
-    strcat(name, ">>>>");
+    char name = input("what is your name\n");
+    //printf("What is your name?\n");
+    char d = "<<<<"
+    char name =
     strcat(capSix, name);
     printf("Hello %s \n", capSix);
     return 0;
