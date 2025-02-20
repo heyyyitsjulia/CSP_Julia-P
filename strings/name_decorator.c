@@ -5,7 +5,7 @@
 int main(void){
     char name[30] = "Julia";
     char capSix[40] = "<<<<";
-    strcat(name, ">>>>")
+    strcat(name, ">>>>");
     strcat(capSix, name);
     printf("Hello %s \n", capSix);
     return 0;

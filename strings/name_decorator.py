@@ -1,5 +1,11 @@
 # Julia Properzi, Name Decorator Python
 
-name = (input("What is your first name?\n").strip().capitalize() )
+name = input("What is your first name?\n").strip().capitalize()
 
-print(f"****{name}****")
+d = "****"
+userName= name
+o = "****"
+
+print(d,userName, o)
+
+
