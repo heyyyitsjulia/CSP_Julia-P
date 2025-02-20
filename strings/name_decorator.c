@@ -3,7 +3,7 @@
 #include<string.h>
 
 int main(void){
-    char name[30] = "Julia";
+    printf("What is your name?\n");
     char capSix[40] = "<<<<";
     strcat(name, ">>>>");
     strcat(capSix, name);
