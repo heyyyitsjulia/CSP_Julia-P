@@ -2,12 +2,13 @@
 #include <stdio.h>
 #include<string.h>
 
+char name[19]; 
+
 int main(void){
-    char name = input("what is your name\n");
-    //printf("What is your name?\n");
-    char d = "<<<<"
-    char name =
-    strcat(capSix, name);
-    printf("Hello %s \n", capSix);
+    printf("What is your name?\n");
+    scanf("%s", name)
+    char d []= "<<<<";
+    char o = ">>>>";
+    printf(d+name+o);
     return 0;
 }
