@@ -4,11 +4,15 @@
 
 char name[15]; 
 
+char design[50];
+
 int main(void){
     printf("What is your name?\n");
     scanf("%s", name);
-    char d []= "<<<<";
-    char o [] = ">>>>";
-    printf("%s%s%s", d, name, o);
+    strcpy(design, "<<<<");
+    strcat (design, name);
+    strcat(design, ">>>>");
+    printf("%s", design);
+
     return 0;
 }
