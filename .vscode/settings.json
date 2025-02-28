@@ -1,5 +1,7 @@
 {
     "files.associations": {
-        "financial_calculatorUpdate.C": "cpp"
+        "financial_calculatorUpdate.C": "cpp",
+        "text_encoding": "c",
+        "typeinfo": "c"
     }
 }
