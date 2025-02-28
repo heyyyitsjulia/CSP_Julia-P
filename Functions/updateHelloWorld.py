@@ -1,12 +1,10 @@
 # Julia Properzi, update hello world
 
-fname = input("What is your first name:\n")
-print(f"hello {fname}!")
-tname = input("What is your teachers name:\n")
-print(f"hello {tname}!")
-friname = input("what is your friends name:\n")
-print(f"hello {friname}!")
-momName = input("what is your mom's name:\n")
-print(f"hello {momName}!")
-dadName = input("what is your dad's name:\n")
-print(f"hello {dadName}!")
+def hello (name):
+    return f"hello {name}"
+print(hello(input("what is your name:\n")))
+print(hello(input("what is your teachers name:\n")))
+print(hello(input("What is your friends name")))
+print(hello(input("What is your mom's name: \n")))
+print(hello(input("What is your dad's name: \n")))
+
