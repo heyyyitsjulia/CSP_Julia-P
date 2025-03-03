@@ -68,10 +68,3 @@ if num < 10:
 else: 
     print("The number is bigger than 10")
 
-#How do you write an if statement in C?
-
-#How do you write else statements in C?
-
-#How do you write elif/ else if statements in C?
-
-#How do you write the 3 logical operators in C?
