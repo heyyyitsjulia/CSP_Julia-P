@@ -2,11 +2,21 @@
 #include <stdio.h>
 #include <time.h>
 
-time_t now = time(NULL);  
-struct tm *local = localtime(&now);  
-
-
 int main(void){
-    printf("Hello World");
+    time_t t;
+    struct tm *tm_info;
+
+    time(&t);
+    tm_info= localtime(&t);
+
+    printf("%d\n", tm_info-> tm_hour);
+
+    if(tm_info-> tm_hour <= 12){
+        printf("Good Morning!\n");
+    } else if (tm_info -> tm_hour <=18){
+        printf("Good afternoon!\n");
+    }else {
+        printf("Good evening!\n");
+    }
     return 0;
 }
