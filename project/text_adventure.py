@@ -1,80 +1,51 @@
 #Text based adventure game, python
 print("Hello player, welcome to our text based adventure game! Pick 1 of the each of the 2 puzzles to solve.")
-if secondquestion == 7:    
-    while True:    
-        riddle_answer = input("Here is your riddle, What is always on the floor, but never gets dirty:\n")    
-        if riddle_answer == "shadow":    
-            print("You are correct!\n You got a big blue ball gown with elegant puffed sleeves.")    
-            break   
-        else:    
-            print("That is incorrect, try again:")  
-elif secondquestion == 8:   
-    while True:  
-        unscramble = input("Unscramble this word... stcilvaiiznoi:\n")  
-        if unscramble == "civilizations":  
-            print("You are correct! Wow, you're good at this! You got jean overalls with embroidered flowers on the pockets.")  
-            break  
-        else:  
-            print("That is WRONG, try again:")  
-else:  
-    print("That is not a valid option. Please pick 7 or 8.")  
-
-
-
-
-
-
 puzzleone = int(input("pick a number, 1 or 2\n"))
 if puzzleone == 1:
     while True:  
-question = input("guess the qord based on the description! red, summer,fruit, sliced:\n")  
-if question == "watermelon":
-print("you are correct!\n You get granny white hair!")
-break
-    else:
-print("that is incorrect, try again:")
- elif questiontwo == 2:  
- while Tfinishtiontwo = input("Finish the sequence! 156723451567234515672:\n")if finish == "345":
-print("you are correct! You get light up neon circus afro hair!")
-     
-  
-    if question == "345":
-    print(f"that is correct! {question} is correct! You get granny white hair!" )
-        break 
-    else:
-    print("That is incorrect! try again!")
+        question = input("guess the word based on the description! red, summer,fruit, sliced:\n")  
+        if question == "watermelon":
+            print("you are correct!\n You get granny white hair!")
+            break
+        else:
+            print("that is incorrect, try again:")
 
-if 2 == question:
-    question_two = input("Find the worde based on the description! Red, summer, friut, sliced.")
-if  question_two == ("watermelon"):
-    print(f"{question_two} is correct! You get light up neon circus afro hair!")
-    break
+elif puzzleone== 2:  
+    while True:
+        finish = input ("Finish the sequence! 156723451567234515672:\n")
+        if finish == "345":
+            print("you are correct! You get neon ranbow afro hair!")
+            break
+        else:
+            print("Loser! You're wrong! Do it again!")
 else:
-    print("you are wrong! try again!")
+    print("That is not an option, pick 1 or 2..")
+        
 
+        
 
-while True:    
-    puzzle = input("To pick 1 a word scramble or riddle, insert 3 or 4.\n")    
-    if puzzle == "3":   
-        answer = input("imekilcr\n")   
-        if answer.lower() == "limerick":
+puzzle = int(input("Insert 3 or 4.\n"))   
+if puzzle == 3:
+    while True:       
+        answer = input("unscramble this word scramble. imekilcr\n")   
+        if answer == "limerick":
             print("Correct, you won black eyes!\n") 
             break  
         else:
             print("Incorrect, try again...\n")
-    elif puzzle == "4":  
-        answer = input("Maria has five children. Jack, Logan, Sarah, and Lipton. What is the name of the fifth child?\n")    
-        if answer.lower() == "what":    
+elif puzzle == 4: 
+    while True: 
+        answer = input("Maria has five children. Jack, Logan, Sarah, and Lipton. What is the name of the fifth child?\n")
+        if answer == "what":    
             print("Correct, you won green eyes!\n")    
             break   
         else:    
             print("Incorrect, try again...\n")    
     else:  
-        print("To pick 1 a word scramble or riddle, insert 3 or 4.\n")  
+        print("That is not an opton, insert 3 or 4.\n")  
 
-
-
-sequence = int(input("Pick either number 5 or 6 for your next puzzle.\n"))
+#These two were written by Paige Jolley
+sequence = int(input("Pick either number 5 or 6 for your next puzzle.\n"))# This making them be able
 if sequence == 5:
   while True:
     sequence_puzzle = input("What is the next number in the sequence? one, three, four, five, nine, two, eleven, four,...")
@@ -115,3 +86,23 @@ elif secondquestion == 8:
             print("That is WRONG, try again:")  
 else:  
     print("That is not a valid option. Please pick 7 or 8.")  
+
+
+
+
+#These are statements 
+puzzles = ["Black eyes", "granny white hair", "big blue ball gown with elegant puffed sleeves", "purple heelys"]
+for puzzle in puzzles:
+    print("Your character has", puzzle)
+
+prizes = ["Green eyes", "light up neon circus afro hair", "jean overalls with embroidered flowers on the pockets", "pink bedazzeled justice glow up sneakers"]
+for prize in prizes:
+    print("Your character has", prize)
+
+wins = ["Black", "light up neon circus afro hair", "big blue ball gown with elegant puffed sleeves", "pink bedazzled justics glow up sneakers"]
+for win in wins:
+    print("Your character has", win)
+
+selects = ["Green eyes", "granny white hair", "jean overalls with embroidered flowers on the pockets", "purple heelys"]
+for select in selects:
+    print("Your character has", select)
