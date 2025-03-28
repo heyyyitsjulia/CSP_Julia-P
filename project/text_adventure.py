@@ -1,6 +1,6 @@
 #Text based adventure game, python
 
-print("Hello player, welcome to our text-based adventure game! Pick 1 of the 2 puzzles to solve.") #Welcomes player to game, lets them choose which puzzle to solve. 
+print("Hello player, welcome to our text-based adventure game! As you solve the puzzles you will get different traits for your character. Pick 1 of the 2 puzzles to solve.") #Welcomes player to game, lets them choose which puzzle to solve. 
   
 player_traits = []  #A list to store the traits the player wins  
   
