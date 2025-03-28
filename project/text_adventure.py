@@ -20,6 +20,7 @@ elif puzzleone== 2:
             print("Loser! You're wrong! Do it again!")
 else:
     print("That is not an option, pick 1 or 2..")
+    
         
 
         
@@ -65,11 +66,11 @@ elif sequence == 6:
         
 
 
-
+# This part is written by Julia Properzi
 secondquestion = int(input("pick a number, 7 or 8\n"))    
   
 if secondquestion == 7:    
-    while True:    
+    while True:    #Here is a while true statement that runs until you get the question incorrect, when it breaks, causing there to be a different printed output.
         riddle_answer = input("Here is your riddle, What is always on the floor, but never gets dirty:\n")    
         if riddle_answer == "shadow":    
             print("You are correct!\n You got a big blue ball gown with elegant puffed sleeves.")    
