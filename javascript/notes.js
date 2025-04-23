@@ -13,7 +13,8 @@ function change(){
 }
 
 function hello(){
-    document.getElementById("title").innerHTML = "Hello World!"
+    let name = window.prompt("What is your name?", "Julia")
+    document.getElementById("title").innerHTML = "Hello " + name + "!"
 }
 function hover(){
     document.getElementById("img").src = "https://texascooppower.com/wp-content/uploads/2021/02/wildflowers-cover-2.jpg"
@@ -21,6 +22,9 @@ function hover(){
 function leave(){
     document.getElementById("img").src = "https://gardenandgun.com/wp-content/uploads/2024/02/Atlantic-Beach_Terry-Ward.jpg"
 }
-function hidden(){
-    document.getElementById("meme").style.display = "block"
+function pop(){
+    window.alert("Really don't click that!")
+}
+function show(){
+    document.getElementById("lost").style.display = "block"
 }
