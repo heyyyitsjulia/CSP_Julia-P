@@ -1,15 +1,8 @@
-let images = ["https://www.wwf.org.uk/sites/default/files/styles/content_slide_image/public/2020-08/Small_WW22392.jpg?h=0e753701&itok=lCMX5Gse"]
-let counter = 0 
+document=java_script_webpage.html
 
-function change(){
-    if (counter < images.length){
-        document.getElementById("img").src = images[counter]
-        counter += 1
-    }else{
-        counter = 0 
-        document.getElementById("img").style.display ==="none"
-    }
+function show(){
+    document.getElementById("img").style.display = "block"
 }
-function hover(){
-    document.getElementById("img").style.display=== "none"
+function hide(){
+    document.getElementById("img").style.display = "none"
 }

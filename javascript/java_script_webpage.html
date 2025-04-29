@@ -8,12 +8,13 @@
                 img{
                 height: 300px; 
                 width: auto;
+                display: none;
             }
             </style> 
     </head>
     <body>
         <div id="pandas">
-            <h1 id="title" onmouseover="change()">Pandas</h1>
+            <h1 id="title" onmouseover="show()" onmouseleave="hide()">Pandas</h1>
         </div>
         
         <h2>Habitat</h2>
@@ -30,8 +31,5 @@
         </p>  
             <img id="img"src="https://www.wwf.org.uk/sites/default/files/styles/content_slide_image/public/2020-08/Small_WW22392.jpg?h=0e753701&itok=lCMX5Gse" alt="panda walkin">
             <dt id="image-src">Image From: Naturepl</dt>
-
-            <img src="https://good-nature-blog-uploads.s3.amazonaws.com/uploads/2017/04/Panda-Wave-Josephs.jpg" alt="Panda wavin">
-            <dt id="hidden">Image From: Nature Habitat Adventures</dt>
     </body>
 </html>
