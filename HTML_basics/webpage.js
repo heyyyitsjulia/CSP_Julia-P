@@ -11,9 +11,9 @@ function change(){
     }
     
 }
-function hover(){
+function setNewImage(){
     document.getElementById("img").src = "https://www.foodandwine.com/thmb/i9SamRQmWvCB0uf-uHxRdIBG37o=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/cioppino-FT-RECIPE0521-4699a9c202574e5cb10232128b0aa90a.jpg"
 }
-function leave(){
+function setOldImage(){
     document.getElementById("img").src = "https://pinabresciani.com/wp-content/uploads/2023/01/Italian-seafood-pasta-1200.png"
 }
