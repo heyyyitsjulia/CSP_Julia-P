@@ -3,8 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Sacramento&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
         <title>Park City</title>
         <script src="final.js"></script>
         <style>
@@ -15,33 +15,46 @@
             }
             #title{
                 text-align: center;
+                font-size: 75px;
             }
             body{
                 background-color:blanchedalmond;
                 color:cadetblue;
                 padding: 20px;
                 font-family: "Sacramento", cursive;
-  font-weight: 400;
-  font-style: normal;
+                font-family: "Poiret One", sans-serif;
+                font-weight: 400;
+                font-style: normal;
             }
             ul{
                 display:flex;
+                flex-wrap: wrap;
                 margin: 10px;
+                font-size: 25px;
             }
             li{
                 margin: 20px;
+            }
+            #paragraph{
+                font-size: 25px;
+            }
+            #hidden{
+                display: none;
+                font-size: 25px;
             }
         </style>
     </head>
     <body>
         <h1 id="title">Park City</h1>
-        <p>Park city is home to Deer Valley Resort and Park City Mountain plus Woodward, the National Ability Center, the Utah Olympic Park, and many trails that you can go on with beautiful views of the whole city. In the winter time, you can do so many fun activities like skiing, snowboarding, and even fishing! But park city has activites all year round, like, mountain biking, hiking, and beautiful gardens you can go visit as well. If you want to have some of the best experiences on vacation, then come to park city. Some reasons why you should come here is...</p>
+        <div id ="paragraph"><p>Park city is home to Deer Valley Resort and Park City Mountain plus Woodward, the National Ability Center, the Utah Olympic Park, and many trails that you can go on with beautiful views of the whole city. In the winter time, you can do so many fun activities like skiing, snowboarding, and even fishing! But park city has activites all year round, like, mountain biking, hiking, and beautiful gardens you can go visit as well. If you want to have some of the best experiences on vacation, then come to park city. Some reasons why you should come here is...</p>
+        </div>
         <ul>
                 <li>Great views</li>
                 <li>Ski Resorts</li>
                 <li>Spas</li>
                 <li>Delicious Dining</li>
             </ul>
+        
             <br>
         <img id="img 1" 
         onmouseover="change()"
@@ -53,5 +66,10 @@
         <br>
         <img id="img 3" src="https://images.prismic.io/ski-com/ZrDpBEaF0TcGIsIn_20221115_PC_CanyonsVillageRendering_0041.jpg?auto=format%2Ccompress&fit=max&w=3840&q=100" alt="snow">
         <p><small>Image from: Ski</small></p>
-    </body>
+        <button id="button" onclick="show()">Show More!</button>
+    <div id="hidden">
+         <p>Park City is most popular in the winter, where people can skii and snowboard. They hosted multiple events during the 2002 Winter Olympics. Before becoming a ski resort, Park City was a silver mining town, it has historical buildings and museums that people can visit too if they don't like being out in the cold.</p>
+        
+    </div>
+</body>
 </html>
