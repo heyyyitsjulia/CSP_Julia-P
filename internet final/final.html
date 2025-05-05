@@ -10,8 +10,12 @@
         <style>
             img{
                 width: 25%;
-                height: 300px;
+                height: 400px;
                 width: auto;
+                border-radius: 10px;
+                border: cadetblue;
+                border: 5px solid cadetblue;
+                margin: 20px;
             }
             #title{
                 text-align: center;
@@ -42,6 +46,17 @@
                 display: none;
                 font-size: 25px;
             }
+            #allimages{
+                display: flex;
+                flex-direction: row;
+                margin: 30px;
+                border-radius: 10px;
+                border: cadetblue;
+            }
+            #headers{
+                display: flex;
+                flex-direction: row;
+            }
         </style>
     </head>
     <body>
@@ -56,6 +71,7 @@
             </ul>
         
             <br>
+        <div id="allimages">
         <img id="img 1" 
         onmouseover="change()"
         src="https://www.datocms-assets.com/19726/1716313326-adobestock_445877528.jpeg" alt="park city">
@@ -66,10 +82,15 @@
         <br>
         <img id="img 3" src="https://images.prismic.io/ski-com/ZrDpBEaF0TcGIsIn_20221115_PC_CanyonsVillageRendering_0041.jpg?auto=format%2Ccompress&fit=max&w=3840&q=100" alt="snow">
         <p><small>Image from: Ski</small></p>
+        </div>
+        <div id="headers">
+        
+        </div>
         <button id="button" onclick="show()">Show More!</button>
     <div id="hidden">
          <p>Park City is most popular in the winter, where people can skii and snowboard. They hosted multiple events during the 2002 Winter Olympics. Before becoming a ski resort, Park City was a silver mining town, it has historical buildings and museums that people can visit too if they don't like being out in the cold.</p>
-        
+        <img src="https://assets.simpleviewinc.com/sv-park-city/image/upload/c_fill,f_jpg,h_450,q_65/v1/cms_resources/cms_resources/clients/parkcity/2_DSC0522_by_mark_maziarz_6895b450-2f78-4375-8838-d93ec187dc4b.jpg" alt="winter">
+        <p><small>Image from: Park City, Utah</small></p>
     </div>
 </body>
 </html>
