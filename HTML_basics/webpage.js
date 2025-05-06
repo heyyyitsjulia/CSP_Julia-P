@@ -12,11 +12,11 @@ function change(){
     
 }
 function show(){
-    if(document.getElementById("language").style.display!="block"){
-        document.getElementById("language").style.display="block"
-        document.getElementById("button").innerHTML="show less"
+    if(document.getElementById("language").style.display==="block"){
+        document.getElementById("language").style.display="none"
+        document.getElementById("button").innerHTML="Show More!"
     }else{
-        document.getElementById("language").style.display!="none"
-         document.getElementById("button").innerHTML="show more"
+        document.getElementById("language").style.display="block"
+         document.getElementById("button").innerHTML="show less..."
     }
 }
